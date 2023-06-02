@@ -1,0 +1,34 @@
+.contenedor{
+    height: 100%;
+    position:absolute;
+    top: 15px;
+    right: 30px;
+    left:30%;
+}
+.button{
+    position: relative;
+    left: 220px;
+    top: -2px;
+    height: 20px;
+    width: 5%;
+    background-color: transparent;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    border: 0px;
+}
+.search{
+    color:aliceblue;
+    top: -2px;
+    position: relative;
+    left: 300px;
+    border-radius: 10px;
+    height: 35px;
+    width: 40%;
+    background-color:transparent;
+    border-style: double;
+    border-color:rgb(19, 172, 201);
+
+
+}
+

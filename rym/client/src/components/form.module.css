@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Ubuntu:wght@300&display=swap');
+
+    .container{
+    position:fixed;
+    height: 450px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.74);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    backdrop-filter: blur(10px);
+    top:80px;
+    border-radius:20px ;
+    border: 4px;
+}
+    .email{
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    left: 55px;
+    display: block;
+    height: 35px;
+    margin: 0px;
+    top: 60px;
+    border: 0px;
+    width: 70%;
+    background-color: rgba(131, 131, 131, 0.39);
+    border-radius: 10px;
+}
+    .pass{
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    left: 55px;
+    display: block;
+    height: 35px;
+    margin: 0px;
+    border: 0px;
+    top: 60px;
+    width: 70%;
+    background-color: rgba(131, 131, 131, 0.39);
+    border-radius: 10px;
+}
+    .button{
+    position: absolute;
+    top: 350px;
+    height: 11%;
+    width: 320px;
+    left: 40px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: transparent;
+    cursor: pointer;
+    
+}
+
+    .txtEmail{
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    top: 55px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 17px;
+    right: 120px;
+}
+    .txtPass{
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        top: 55px;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        font-size: 17px;
+        right: 105px;
+}
+    .log{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 30px;
+}
+
+    .errors{
+        color: rgb(87, 0, 0);
+        position: relative;
+        right: 70px;
+        top: 50px;
+    }
+    .errorsP{
+        color: rgb(87, 0, 0);
+        position: relative;
+        right: 20px;
+        top: 45px;
+    }

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Ubuntu:wght@300&display=swap');
+
+.nav{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.856);
+    width:100%;
+    right: 0px;
+    top: 0px;
+    height: 60px;
+}
+.img{
+    position: relative;
+    top: -35px;
+    right: 39%;
+    width: 280px;
+    height: 100px;
+}
+.BotonAbout{
+    font-family: 'Ubuntu', sans-serif;
+    height: 30px;
+    border-radius: 5px;
+    border-style: double;
+    border-color: rgb(19, 172, 201);
+    position: relative;
+    background-color: transparent;
+    top: 15px;
+    right: 13%;
+}
+.BotonHome{
+    font-family: 'Ubuntu', sans-serif;
+    height: 30px;
+    border-radius: 5px;
+    border-style: double;
+    border-color: rgb(19, 172, 201);
+    position: relative;
+    background-color: transparent;
+    right: -90px;
+    top: 15px;
+}
+
+.Fav{
+    font-family: 'Ubuntu', sans-serif;
+    height: 30px;
+    border-radius: 5px;
+    border-style: double;
+    border-color: rgb(19, 172, 201);
+    position: relative;
+    background-color: transparent;
+    top: -119px;
+    color: aliceblue;
+    right: 43px;
+}
+
+.about{
+    color: white;
+}
+
+.Home{
+    color: white;
+}

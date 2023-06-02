@@ -1,0 +1,17 @@
+.Close{
+  position:absolute;
+  right: 120px;
+  top: -3px;
+  background-color: transparent;
+  border-color: aqua;
+  border-radius: 5px;
+  color: black;
+  
+}
+.ButtonFav{
+  position:relative;
+  top: -6px;
+  right: 40px;
+  background-color: transparent;
+ border: none;
+}

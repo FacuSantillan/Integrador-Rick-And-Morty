@@ -1,0 +1,10 @@
+.fav{
+    position: absolute;
+    top: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    height: 20px;
+    border-radius: 5px;
+    border-style: double;
+    border-color: rgb(19, 172, 201);
+    background-color: transparent;
+}

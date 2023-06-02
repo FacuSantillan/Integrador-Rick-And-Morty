@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Ubuntu:wght@300&display=swap');
+
+
+.App {
+   text-align: center;
+}
+.button{
+  font-variant: normal;
+  width: 100%;
+  height: 8%;
+  text-align: center;
+  color: #f3f3f3;
+  background-color: black;
+  color: white;
+  font-size:14px;
+  border-radius: 5px;
+}
+
+.cont{
+  color:transparent
+}
+
+.cards {
+  font-family: 'Ubuntu', sans-serif;
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 30px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bolder;
+  font-size: 18px;
+ }
+ 
+ .cards .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 60px;
+  overflow:hidden;
+  transition: 0.8s;
+ }
+ .cards .front {
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000000;
+ }
+ 
+ .cards .front img {
+  width: 300px;
+  height: 351px;
+  
+   object-fit: cover;
+   overflow: hidden;
+   
+ }
+ 
+ 
+ .cards .back {
+  font-family: 'Ubuntu', sans-serif;
+  font-size:large;
+  font-weight: bolder;
+   transform: perspective(600px) rotateX(180deg);
+   background-image: url('../src/components/asets/172056-rick_and_morty-morty_smith-rick_sanchez-adult_swim-rick_and_morty_season_2-360x641.jpg');
+   background-size:auto;
+   padding: 7px;
+   color: #000000;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   text-align: center;
+ }
+ 
+ .cards:hover .front{
+  transform: perspective(600px) rotateX(180deg)
+ }
+ .cards:hover .back{
+  transform: perspective(600px) rotateX(360deg)
+ }

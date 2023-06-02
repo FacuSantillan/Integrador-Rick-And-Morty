@@ -1,0 +1,23 @@
+.App{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    flex-wrap: wrap;
+    padding: 20px;
+    margin:auto;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 11px;
+    text-align:center;
+}
+
+body{
+    background-image: url('../src/components/asets/3440x1440-Rick-y-Morty-Wallpaper.-Rick-y-Morty.-Rick-Morty-Dan-Harmon.png') ; 
+    background-size:auto;
+    width: 100%;
+    
+
+   
+background-position: center center;
+
+}
